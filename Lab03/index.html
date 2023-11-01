@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB03</title>
+</head>
+
+<body>
+   <form action="" method="get">
+        <!-- dane osobowe -->
+        <label>Podaj imie:</label>
+        <input type="text" name="imie" required><br>
+        <label>Podaj nazwisko</label>
+        <input type="text" name="nazwisko" required><br>
+        <label>Podaj numer telefonu</label>
+        <input type="tel" name="telefon" required><br>
+        <label>Podaj adres email</label>
+        <input type="email" name="email" placeholder="kowalski553@email.com"><br>
+
+        <!-- wybór miasta -->
+        <label>Wybierz swoje miasto</label>
+        <select name="WyborMiasta">
+            <optgroup label="Wybierz jedno">
+                <option>Warszawa</option>
+                <option>Kraków</option>
+                <option>Rzeszów</option>
+                <option>Lublin</option>
+                <option disabled>Wrocław</option>
+                <option disabled>Kraków</option>
+            </optgroup>
+        </select>
+
+        <!-- zgłoszenie -->
+        <p>
+            <label>Opisz swoje zgłoszenie</label><br>
+            <textarea name="" id="" cols="33" rows="5"></textarea><br>
+            <button type="submit">Wyślij zgłoszenie</button>
+            <button type="reset">Wyczyść</button>
+        </p>
+   </form>     
+
+</body>
+</html>
