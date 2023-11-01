@@ -1,0 +1,9 @@
+section 
+{
+    border: 1px dashed red;
+    color: red;
+}
+p
+{
+    all: initial;
+}

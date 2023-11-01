@@ -1,0 +1,22 @@
+p
+{
+    color: red;
+}
+
+h1
+{
+    color: orange;
+}
+
+#special
+{
+    background-color: lightyellow;
+    color: black;
+}
+
+.example
+{
+    font-family: italic;
+    padding: 10px;
+    margin: 50px;
+}
