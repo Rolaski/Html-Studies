@@ -1,0 +1,20 @@
+.master
+{
+    width: 5em;
+}
+.parent
+{
+    font-size: 20px;
+}
+.child-one
+{
+    font-size: 1.5em
+}
+.child-two
+{
+    font-size: 1.5em;
+}
+.child-three
+{
+    font-size: 2em
+}
