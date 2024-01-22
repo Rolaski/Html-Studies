@@ -11,7 +11,8 @@ function reverse() {
     }
 }
 
-function text(inputText) {
+function text(inputText) 
+{
     var inputText = document.getElementById('inputText');
     return inputText.value;
 }
