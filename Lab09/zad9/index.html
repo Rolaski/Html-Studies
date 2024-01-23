@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password generation</title>
+</head>
+
+<body>
+    
+    <h2>Password generation</h2>
+
+    <form>
+        <p>
+            <label>Enter special characters</label><br>
+            <input type="text" id="specialCharacters" required>
+        </p>
+
+        <p>
+            <label>How many characters should it have?</label><br>
+            <input type="number" id="length" required>
+        </p>
+        
+
+        <input type="checkbox" id="lowercase">
+        <label>Should it have small letters?</label><br>
+
+        <input type="checkbox" id="uppercase">
+        <label>Should it have big letters?</label><br>
+
+        <input type="checkbox" id="numbers">
+        <label>Should it have numbers?</label><br>
+
+        <p>
+            <input type="button" value="Generate my password" id="button">
+        </p>
+        <div id="output"></div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
