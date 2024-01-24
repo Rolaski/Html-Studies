@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person [
+<!ELEMENT person (name, surname, address+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT address (city, street)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ATTLIST address type (residence | correspondence) "residence">
+]>
+<person>
+    <name>Jan</name>
+    <surname>Kowalski</surname>
+    <address type="residence">
+        <city>Rzeszów</city>
+        <street>Rejtana 16c</street>
+    </address>
+    <address type="correspondence">
+        <city>Rzeszów</city>
+        <street>Rejtana 16c</street>
+    </address> 
+</person>
